@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input {
+  @apply w-full px-4 py-2 rounded-lg border focus:outline-none focus:ring focus:border-blue-500;
+}
+
+h1 {
+  @apply text-3xl font-semibold;
+}
+
+h2 {
+  @apply text-2xl font-semibold;
+}
+
+h3 {
+  @apply text-xl font-semibold;
+}
+
+nav {
+  @apply bg-blue-500 p-4 text-white;
+}
+
+nav ul {
+  @apply flex space-x-4;
+}
+
+nav li {
+  @apply inline-block;
+}
+
+nav a {
+  @apply text-white hover:text-gray-200;
+}
+
+textarea {
+  @apply w-full px-4 py-2 rounded-lg border focus:outline-none focus:ring focus:border-blue-500;
+  resize: vertical;
+}
+
+.btn {
+  @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-700;
+}
