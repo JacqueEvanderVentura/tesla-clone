@@ -1,9 +1,10 @@
 import { ReactNode } from "react";
+import Heading from "./Components/Header";
 
 function App(): ReactNode {
 	return (
 		<>
-			<h1 className="text-blue-500 text-4xl">Write something</h1>
+		<Heading level={3} >LEVEL 3 HEADING</Heading>
 		</>
 	);
 }
